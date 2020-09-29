@@ -1,0 +1,77 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "BlazorWinformsStandAloneApplication/1.0.0": {
+        "dependencies": {
+          "BlazorServer": "1.0.0",
+          "Microsoft.Web.WebView2": "0.9.628-prerelease"
+        },
+        "runtime": {
+          "BlazorWinformsStandAloneApplication.dll": {}
+        }
+      },
+      "Microsoft.Web.WebView2/0.9.628-prerelease": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll": {
+            "assemblyVersion": "0.9.628.0",
+            "fileVersion": "0.9.628.0"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.dll": {
+            "assemblyVersion": "0.9.628.0",
+            "fileVersion": "0.9.628.0"
+          },
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll": {
+            "assemblyVersion": "0.9.628.0",
+            "fileVersion": "0.9.628.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm/native/WebView2Loader.dll": {
+            "rid": "win-arm",
+            "assetType": "native",
+            "fileVersion": "0.9.628.0"
+          },
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.9.628.0"
+          },
+          "runtimes/win-x86/native/WebView2Loader.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.9.628.0"
+          }
+        }
+      },
+      "BlazorServer/1.0.0": {
+        "runtime": {
+          "BlazorServer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlazorWinformsStandAloneApplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.WebView2/0.9.628-prerelease": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FOY4hnbGmaOcYr0bpTFkYlAgfIx6DQO+HUKfWnNO/MAVMAM091F03LhW5yTWs52eNh384G+vN9DRrdaNvvsIUA==",
+      "path": "microsoft.web.webview2/0.9.628-prerelease",
+      "hashPath": "microsoft.web.webview2.0.9.628-prerelease.nupkg.sha512"
+    },
+    "BlazorServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0-windows7.0": {
+      "Microsoft.Web.WebView2/0.9.628-prerelease": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll": {},
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.dll": {},
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll": {},
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.dll": {},
+          "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll": {}
+        },
+        "build": {
+          "build/Microsoft.Web.WebView2.targets": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win-arm/native/WebView2Loader.dll": {
+            "assetType": "native",
+            "rid": "win-arm"
+          },
+          "runtimes/win-x64/native/WebView2Loader.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/WebView2Loader.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "BlazorServer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BlazorServer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazorServer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Web.WebView2/0.9.628-prerelease": {
+      "sha512": "FOY4hnbGmaOcYr0bpTFkYlAgfIx6DQO+HUKfWnNO/MAVMAM091F03LhW5yTWs52eNh384G+vN9DRrdaNvvsIUA==",
+      "type": "package",
+      "path": "microsoft.web.webview2/0.9.628-prerelease",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "WebView2.idl",
+        "WebView2.tlb",
+        "WebView2Experimental.idl",
+        "WebView2Experimental.tlb",
+        "build/Microsoft.Web.WebView2.targets",
+        "build/arm64/WebView2Loader.dll",
+        "build/native/Microsoft.Web.WebView2.targets",
+        "build/native/arm64/WebView2Guid.lib",
+        "build/native/arm64/WebView2Loader.dll",
+        "build/native/arm64/WebView2Loader.dll.lib",
+        "build/native/arm64/WebView2LoaderStatic.lib",
+        "build/native/include/WebView2.h",
+        "build/native/include/WebView2EnvironmentOptions.h",
+        "build/native/include/WebView2Experimental.h",
+        "build/native/include/WebView2ExperimentalEnvironmentOptions.h",
+        "build/native/x64/WebView2Guid.lib",
+        "build/native/x64/WebView2Loader.dll",
+        "build/native/x64/WebView2Loader.dll.lib",
+        "build/native/x64/WebView2LoaderStatic.lib",
+        "build/native/x86/WebView2Guid.lib",
+        "build/native/x86/WebView2Loader.dll",
+        "build/native/x86/WebView2Loader.dll.lib",
+        "build/native/x86/WebView2LoaderStatic.lib",
+        "build/x64/WebView2Loader.dll",
+        "build/x86/WebView2Loader.dll",
+        "lib/net462/Microsoft.Web.WebView2.Core.dll",
+        "lib/net462/Microsoft.Web.WebView2.Core.xml",
+        "lib/net462/Microsoft.Web.WebView2.WinForms.dll",
+        "lib/net462/Microsoft.Web.WebView2.WinForms.xml",
+        "lib/net462/Microsoft.Web.WebView2.Wpf.dll",
+        "lib/net462/Microsoft.Web.WebView2.Wpf.xml",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.dll",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.Core.xml",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.dll",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.WinForms.xml",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.dll",
+        "lib/netcoreapp3.0/Microsoft.Web.WebView2.Wpf.xml",
+        "microsoft.web.webview2.0.9.628-prerelease.nupkg.sha512",
+        "microsoft.web.webview2.nuspec",
+        "runtimes/win-arm/native/WebView2Loader.dll",
+        "runtimes/win-x64/native/WebView2Loader.dll",
+        "runtimes/win-x86/native/WebView2Loader.dll"
+      ]
+    },
+    "BlazorServer/1.0.0": {
+      "type": "project",
+      "path": "../BlazorServer/BlazorServer/BlazorServer.csproj",
+      "msbuildProject": "../BlazorServer/BlazorServer/BlazorServer.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0-windows7.0": [
+      "BlazorServer >= 1.0.0",
+      "Microsoft.Web.WebView2 >= 0.9.628-prerelease"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\11\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\11\\Desktop\\BlazorWinformsStandAloneApplication\\BlazorWinformsStandAloneApplication\\BlazorWinformsStandAloneApplication.csproj",
+      "projectName": "BlazorWinformsStandAloneApplication",
+      "projectPath": "C:\\Users\\11\\Desktop\\BlazorWinformsStandAloneApplication\\BlazorWinformsStandAloneApplication\\BlazorWinformsStandAloneApplication.csproj",
+      "packagesPath": "C:\\Users\\11\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\11\\Desktop\\BlazorWinformsStandAloneApplication\\BlazorWinformsStandAloneApplication\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\11\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\11\\Desktop\\BlazorWinformsStandAloneApplication\\BlazorServer\\BlazorServer\\BlazorServer.csproj": {
+              "projectPath": "C:\\Users\\11\\Desktop\\BlazorWinformsStandAloneApplication\\BlazorServer\\BlazorServer\\BlazorServer.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0-windows7.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "Microsoft.Web.WebView2": {
+            "target": "Package",
+            "version": "[0.9.628-prerelease, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.1.20452.10\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

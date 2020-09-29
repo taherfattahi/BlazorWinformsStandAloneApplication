@@ -1,0 +1,23 @@
+{
+  "runtimeOptions": {
+    "tfm": "net5.0",
+    "frameworks": [
+      {
+        "name": "Microsoft.WindowsDesktop.App",
+        "version": "5.0.0-rc.1.20452.2"
+      },
+      {
+        "name": "Microsoft.AspNetCore.App",
+        "version": "5.0.0-rc.1.20451.17"
+      }
+    ],
+    "additionalProbingPaths": [
+      "C:\\Users\\11\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\11\\.nuget\\packages",
+      "C:\\Microsoft\\Xamarin\\NuGet"
+    ],
+    "configProperties": {
+      "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
+    }
+  }
+}

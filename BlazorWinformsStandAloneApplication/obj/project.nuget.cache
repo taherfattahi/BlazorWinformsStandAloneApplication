@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z2Du4HNSLIna6sQl0WMtiNxCoD6z0nCdVSj7byjbWu1g35Vo7XJmYJQChqrhspw0Xl950R2Fn6ooyzwLFI2SjQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\11\\Desktop\\BlazorWinformsStandAloneApplication\\BlazorWinformsStandAloneApplication\\BlazorWinformsStandAloneApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\11\\.nuget\\packages\\microsoft.web.webview2\\0.9.628-prerelease\\microsoft.web.webview2.0.9.628-prerelease.nupkg.sha512"
+  ],
+  "logs": []
+}
